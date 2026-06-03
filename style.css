@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    min-height:100vh;
+}
+
+.hero{
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ),
+    url("nelly.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+}
+
+.content{
+    padding:30px;
+}
+
+h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.btn{
+    background:#ff4081;
+    color:white;
+}
+
+.gallery{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    min-height:100vh;
+    background:#ffe6f2;
+}
+
+.gallery img{
+    width:500px;
+    max-width:90%;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.center{
+    text-align:center;
+    padding:20px;
+}
+
+.card{
+    width:700px;
+    max-width:95%;
+    margin:auto;
+    padding:30px;
+    border-radius:20px;
+    background:white;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.gift-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+}

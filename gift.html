@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hadiah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="gift-page">
+
+<div class="card">
+
+<h1>🎁 Hadiah Spesial buat Kamu</h1>
+
+<button
+class="btn"
+onclick="openGift()">
+
+Buka Hadiah
+
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<script>
+
+function openGift(){
+
+document.getElementById("result").innerHTML=
+
+`
+<h2>🔍 Sedang memproses hadiah...</h2>
+`;
+
+setTimeout(()=>{
+
+document.getElementById("result").innerHTML=
+
+`
+<h2>🏆 Sertifikat Resmi Bertambah Tua</h2>
+
+<p>
+Selamat Dek Nelly!
+</p>
+
+<p>
++1 Level Umur
+<br>
++100 Experience
+<br>
++5 Wisdom
+<br>
+-10 Energi Begadang
+</p>
+
+<h3>
+😂 Selamat, semakin dekat
+dengan diskon lansia.
+</h3>
+`;
+
+},3000);
+
+}
+
+</script>
+
+</body>
+</html>
